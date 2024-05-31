@@ -1,0 +1,206 @@
+.ellipse-shape-second-part-container {
+    margin-left: 11rem;
+}
+
+.badge-dark {
+    position: relative;
+    border-radius: 10px;
+    background-color: black;
+    padding: 5px 15px;
+    text-align: center;
+    color: white;
+    white-space: nowrap;
+    vertical-align: baseline;
+    box-shadow: 
+        0 8px 16px rgba(0, 160, 228, 0.1), 
+        -8px 0 16px rgba(0, 160, 228, 0.1), 
+        8px 0 16px rgba(0, 160, 228, 0.1);
+}
+
+.section-button-back {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-back {
+    position: absolute;
+    left: 5rem;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 15px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    font-family: Poppins-Regular;
+}
+
+.container-dealer {
+    display: flex;
+    flex-direction: column;
+    padding: 0rem 5rem;
+    margin: 3rem 0;
+    gap: 3rem;
+}
+
+.card-dealer {
+    border-radius: 10px;
+    border: 1px solid #00A0E4;
+}
+
+.card-dealer .img-dealer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 1.5rem;
+}
+
+.card-dealer .img-dealer-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-dealer .description-dealer-container {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    padding: 1.5rem 0;
+    height: 100%;
+}
+
+.title-showroom {
+   
+}
+
+.subtitle-showroom {
+    
+}
+
+.location-showroom {
+    margin: 0 0 1rem 0;
+}
+
+.container-contact-showroom {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: #00A0E4;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 2rem 3rem;
+    height: 100%;
+}
+
+.circle-contact-showroom {
+    width: 25px;
+    height: 25px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    background-color: transparent;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle-contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.circle-contact-showroom .iconn-contact-showroom {
+    font-size: 20px; 
+    color: #fff;
+}
+
+.btn-container-contact-showroom {
+    margin-top: 3rem;
+}
+
+.btn-contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; 
+    width: 100%;
+}
+
+.button-contact-showroom {
+    background-color: transparent;
+    border: 1px solid white;
+    width: 100%;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 15px;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: Poppins-Regular;
+}
+
+@media screen and (max-width: 768px) {
+    .section-button-back {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0rem 1rem;
+    }
+
+    .button-back {
+        position: unset;
+        font-size: small;
+    }
+
+    .container-dealer {
+        padding: 0rem 2rem;
+        gap: 2rem;
+    }
+
+    .card-dealer .description-dealer-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 0 0 1.5rem 0;
+    }
+
+    .title-showroom {
+        order: 2;
+    }
+    
+    .subtitle-showroom {
+        order: 3;
+    }
+    
+    .location-showroom {
+        order: 1;
+        margin: -2.5rem 0 2rem 0;
+    }
+
+    .service-showroom-1 {
+        order: 4;
+    }
+
+    .service-showroom-2 {
+        order: 5;
+    }
+
+    .container-contact-showroom {
+        border-top-right-radius: unset;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+
+    .btn-container-contact-showroom {
+        margin-top: 1rem;
+    }    
+}

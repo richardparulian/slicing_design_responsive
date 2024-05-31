@@ -1,6 +1,6 @@
 ### Hi there, I'm  Richard <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" height="25px" width="25px">
 
-<img src="https://github.com/richardparulian/dev-cms-company-profile/blob/main/assets/daikinB.png?raw=true">
+<img src="https://github.com/richardparulian/slicing_design_responsive/blob/main/assets/daikinB.png?raw=true">
 
 <br>
 
